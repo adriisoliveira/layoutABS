@@ -1,5 +1,4 @@
 C:\Users\Drih\Documents\GitHub\layoutABS\ABS\InterfaceAbs\obj\Debug\InterfaceAbs.csprojAssemblyReference.cache
-C:\Users\Drih\Documents\GitHub\layoutABS\ABS\InterfaceAbs\obj\Debug\InterfaceAbs.frmPreparacao.resources
 C:\Users\Drih\Documents\GitHub\layoutABS\ABS\InterfaceAbs\obj\Debug\InterfaceAbs.FrmSelecaoDeBebidas.resources
 C:\Users\Drih\Documents\GitHub\layoutABS\ABS\InterfaceAbs\obj\Debug\InterfaceAbs.Properties.Resources.resources
 C:\Users\Drih\Documents\GitHub\layoutABS\ABS\InterfaceAbs\obj\Debug\InterfaceAbs.csproj.GenerateResource.cache
@@ -9,3 +8,4 @@ C:\Users\Drih\Documents\GitHub\layoutABS\ABS\InterfaceAbs\bin\Debug\InterfaceAbs
 C:\Users\Drih\Documents\GitHub\layoutABS\ABS\InterfaceAbs\bin\Debug\InterfaceAbs.pdb
 C:\Users\Drih\Documents\GitHub\layoutABS\ABS\InterfaceAbs\obj\Debug\InterfaceAbs.exe
 C:\Users\Drih\Documents\GitHub\layoutABS\ABS\InterfaceAbs\obj\Debug\InterfaceAbs.pdb
+C:\Users\Drih\Documents\GitHub\layoutABS\ABS\InterfaceAbs\obj\Debug\InterfaceAbs.telaConfirmação.resources

@@ -14,7 +14,7 @@ namespace InterfaceAbs
     {
         string bebida = "";
         string gelo = "";
-        int qntGelo = 0;
+        string qntGelo = "";
         string consumo = "";
         string copo = "";
         string tampa = "";
@@ -62,12 +62,12 @@ namespace InterfaceAbs
             if (bebida == "Coca-Cola" || bebida == "Guraná")
             {
                 gelo = "Com gelo";
-                qntGelo = 6;
+                qntGelo = "6";
             }
             else if (bebida == "Suco de uva" || bebida == "Suco de Laranja")
             {
                 gelo = "Com gelo";
-                qntGelo = 12;
+                qntGelo = "12";
             }
             txtPedido.Text = bebida + " || " + gelo;
         }
@@ -75,7 +75,7 @@ namespace InterfaceAbs
         private void btnSGelo_Click(object sender, EventArgs e)
         {
             gelo = "Sem gelo";
-            qntGelo = 0;
+            qntGelo = "0";
             txtPedido.Text = bebida + " || " + gelo;
         }
 
@@ -127,8 +127,31 @@ namespace InterfaceAbs
             + "Pedras de gelo: " + qntGelo + " || " 
             + consumo + " || " + tampa 
             + " || " + tamanho);
+
+            txtPedido.Text = copo + " || " + tamanho + " || " + bebida + " || " + gelo + " || " + qntGelo + " || " + tampa + " || " + consumo;
+            
+            telaConfirmação confirmacao = new telaConfirmação(txtPedido.Text);
+            txtPedido.Clear();
+            confirmacao.Show();
+            this.Hide();
         }
 
-        
+
+        /*public String [] Retorno()
+        {
+            string[] bebidaPreparada;
+            bebidaPreparada = new string[7];
+
+            bebidaPreparada[0] = copo;
+            bebidaPreparada[1] = tamanho;
+            bebidaPreparada[2] = bebida;
+            bebidaPreparada[3] = gelo;
+            bebidaPreparada[4] = qntGelo;
+            bebidaPreparada[5] = tampa;
+            bebidaPreparada[6] = consumo;
+
+            return bebidaPreparada[] ;
+        }*/
+
     }
 }
