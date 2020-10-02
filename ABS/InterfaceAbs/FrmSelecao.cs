@@ -120,6 +120,17 @@ namespace InterfaceAbs
         {
             txtPedido.Clear();
         }
+        private void Maquina()
+        {
+            string[] pedido = new string[7];
+            pedido[0] = copo;
+            pedido[1] = tamanho;
+            pedido[2] = bebida;
+            pedido[3] = gelo;
+            pedido[4] = qntGelo;
+            pedido[5] = tampa;
+            pedido[6] = consumo;
+        }
 
         private void btnEnviar_Click(object sender, EventArgs e)
         { 
@@ -136,22 +147,6 @@ namespace InterfaceAbs
             this.Hide();
         }
 
-
-        /*public String [] Retorno()
-        {
-            string[] bebidaPreparada;
-            bebidaPreparada = new string[7];
-
-            bebidaPreparada[0] = copo;
-            bebidaPreparada[1] = tamanho;
-            bebidaPreparada[2] = bebida;
-            bebidaPreparada[3] = gelo;
-            bebidaPreparada[4] = qntGelo;
-            bebidaPreparada[5] = tampa;
-            bebidaPreparada[6] = consumo;
-
-            return bebidaPreparada[] ;
-        }*/
-
+        
     }
 }
