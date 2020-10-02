@@ -171,24 +171,23 @@ namespace ABS
             else
             {
                 Console.WriteLine("Opção Inválida");
-
             }
 
-            string confirmacao;
+           string confirmacao;
+           Console.WriteLine("Deseja enviar o pedido?");
+           Console.WriteLine("S - Sim");
+           Console.WriteLine("N - Não");
+           confirmacao = Console.ReadLine();
 
-            do {
-                
-                Console.WriteLine("Deseja enviar o pedido?");
-                Console.WriteLine("S - Sim");
-                Console.WriteLine("N - Não");
-                confirmacao = Console.ReadLine();
-
-
-            } while (confirmacao != "N");
-
-            Console.WriteLine("Resumo do Pedido para preparação:");
-            Console.WriteLine("PEDIDO: {0} , {1} , {2}, {3}, {4}", bebida, tamanho, copo, gelo, viagem);
-
+            if (confirmacao == "S")
+            {
+                Console.WriteLine("Resumo do Pedido para preparação:");
+                Console.WriteLine("PEDIDO: {0} , {1} , {2}, {3}, {4}", bebida, tamanho, copo, gelo, viagem);
+            }
+            else if (confirmacao == "N")
+            {
+                Console.WriteLine("Pedido Cancelado");
+            }
         }
     }
 }
